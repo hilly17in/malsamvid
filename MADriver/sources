@@ -1,0 +1,21 @@
+TARGETNAME=MalSamvid
+TARGETTYPE=DRIVER
+DRIVERTYPE=FS
+
+
+TARGETLIBS= $(TARGETLIBS) \
+            $(IFSKIT_LIB_PATH)\fltMgr.lib \
+
+
+INCLUDES=$(INCLUDES);..\include
+	    
+SOURCES=passThrough.c \
+	globals.c \
+	comport.c \
+	instance.c \
+	dispatch.c \
+	irpcallbacks.c \
+	memmgmt.c	\
+	processnotify.c \
+	regcallback.c
+	
