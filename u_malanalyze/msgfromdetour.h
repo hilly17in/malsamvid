@@ -1,0 +1,4 @@
+#pragma once
+
+DWORD
+MessageFromDetour();

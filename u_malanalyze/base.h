@@ -1,0 +1,9 @@
+#pragma once
+
+#define MAX_PROGRAM_LEN			255
+#define MAX_SETVAL_BEHAVIOR		26
+#define MAX_PROGRAM_BYTES		MAX_PROGRAM_LEN * sizeof(WCHAR)
+#define LONG_REGISTRY_PATH		1024
+#define MAX_IMAGE_PATH			260
+
+#define BUFSIZE	1024
