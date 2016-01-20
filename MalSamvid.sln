@@ -10,6 +10,16 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libconfig++", "lib\libconfi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "u_malanalyze", "u_malanalyze\u_malanalyze.vcxproj", "{8FCC8805-4427-42F5-95D0-925B741F9AF6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "malanalyzerinstall", "install\install.vcxproj", "{D6AF9485-EC55-426B-B77C-5647A93A6EA8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "malanalyzeruninstall", "uninstall\uninstall.vcxproj", "{A4FCA3F5-55E1-42AF-BB8B-2E845AE1FB01}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MalAnalyzerSetup", "MalAnalyzerSetup\MalAnalyzerSetup.vdproj", "{0B4EDDCF-1783-4036-AC1C-272692D88E06}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MADriver", "MADriver\MADriver.vcxproj", "{41495E48-A5DB-48B2-AEF2-B7E7EBC7E302}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hookenumprocess", "hookenumprocess\hookenumprocess.vcxproj", "{39460447-FA09-494C-9FB7-3DEEC1F44051}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -40,6 +50,38 @@ Global
 		{8FCC8805-4427-42F5-95D0-925B741F9AF6}.Release|Win32.ActiveCfg = Release|Win32
 		{8FCC8805-4427-42F5-95D0-925B741F9AF6}.Release|Win32.Build.0 = Release|Win32
 		{8FCC8805-4427-42F5-95D0-925B741F9AF6}.Release|x64.ActiveCfg = Release|Win32
+		{D6AF9485-EC55-426B-B77C-5647A93A6EA8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6AF9485-EC55-426B-B77C-5647A93A6EA8}.Debug|Win32.Build.0 = Debug|Win32
+		{D6AF9485-EC55-426B-B77C-5647A93A6EA8}.Debug|x64.ActiveCfg = Debug|Win32
+		{D6AF9485-EC55-426B-B77C-5647A93A6EA8}.Release|Win32.ActiveCfg = Release|Win32
+		{D6AF9485-EC55-426B-B77C-5647A93A6EA8}.Release|Win32.Build.0 = Release|Win32
+		{D6AF9485-EC55-426B-B77C-5647A93A6EA8}.Release|x64.ActiveCfg = Release|Win32
+		{A4FCA3F5-55E1-42AF-BB8B-2E845AE1FB01}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A4FCA3F5-55E1-42AF-BB8B-2E845AE1FB01}.Debug|Win32.Build.0 = Debug|Win32
+		{A4FCA3F5-55E1-42AF-BB8B-2E845AE1FB01}.Debug|x64.ActiveCfg = Debug|Win32
+		{A4FCA3F5-55E1-42AF-BB8B-2E845AE1FB01}.Release|Win32.ActiveCfg = Release|Win32
+		{A4FCA3F5-55E1-42AF-BB8B-2E845AE1FB01}.Release|Win32.Build.0 = Release|Win32
+		{A4FCA3F5-55E1-42AF-BB8B-2E845AE1FB01}.Release|x64.ActiveCfg = Release|Win32
+		{0B4EDDCF-1783-4036-AC1C-272692D88E06}.Debug|Win32.ActiveCfg = Debug
+		{0B4EDDCF-1783-4036-AC1C-272692D88E06}.Debug|Win32.Build.0 = Debug
+		{0B4EDDCF-1783-4036-AC1C-272692D88E06}.Debug|x64.ActiveCfg = Debug
+		{0B4EDDCF-1783-4036-AC1C-272692D88E06}.Debug|x64.Build.0 = Debug
+		{0B4EDDCF-1783-4036-AC1C-272692D88E06}.Release|Win32.ActiveCfg = Release
+		{0B4EDDCF-1783-4036-AC1C-272692D88E06}.Release|Win32.Build.0 = Release
+		{0B4EDDCF-1783-4036-AC1C-272692D88E06}.Release|x64.ActiveCfg = Release
+		{0B4EDDCF-1783-4036-AC1C-272692D88E06}.Release|x64.Build.0 = Release
+		{41495E48-A5DB-48B2-AEF2-B7E7EBC7E302}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41495E48-A5DB-48B2-AEF2-B7E7EBC7E302}.Debug|Win32.Build.0 = Debug|Win32
+		{41495E48-A5DB-48B2-AEF2-B7E7EBC7E302}.Debug|x64.ActiveCfg = Debug|Win32
+		{41495E48-A5DB-48B2-AEF2-B7E7EBC7E302}.Release|Win32.ActiveCfg = Release|Win32
+		{41495E48-A5DB-48B2-AEF2-B7E7EBC7E302}.Release|Win32.Build.0 = Release|Win32
+		{41495E48-A5DB-48B2-AEF2-B7E7EBC7E302}.Release|x64.ActiveCfg = Release|Win32
+		{39460447-FA09-494C-9FB7-3DEEC1F44051}.Debug|Win32.ActiveCfg = Debug|Win32
+		{39460447-FA09-494C-9FB7-3DEEC1F44051}.Debug|Win32.Build.0 = Debug|Win32
+		{39460447-FA09-494C-9FB7-3DEEC1F44051}.Debug|x64.ActiveCfg = Debug|Win32
+		{39460447-FA09-494C-9FB7-3DEEC1F44051}.Release|Win32.ActiveCfg = Release|Win32
+		{39460447-FA09-494C-9FB7-3DEEC1F44051}.Release|Win32.Build.0 = Release|Win32
+		{39460447-FA09-494C-9FB7-3DEEC1F44051}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
