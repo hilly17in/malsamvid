@@ -74,7 +74,7 @@
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <AdditionalIncludeDirectories>D:\WinDDK\7600.16385.1\inc\ddk;D:\WpdPack\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\WinDDK\7600.16385.1\inc\ddk;E:\Library\WpdPack\Include;E:\Library\Microsoft Research\Detours Express 3.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -84,7 +84,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies>fltlib.lib;psapi.lib;iphlpapi.lib;ws2_32.lib;Packet.lib;wpcap.lib;detours.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>D:\WinDDK\7600.16385.1\Lib\wxp\i386;D:\WpdPack\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\WinDDK\7600.16385.1\Lib\wxp\i386;E:\Library\WpdPack\Lib;E:\Library\Microsoft Research\Detours Express 3.0\lib.X86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
